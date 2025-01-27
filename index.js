@@ -32,7 +32,8 @@ const response8 = document.querySelector(".box8 > p");
 const response9 = document.querySelector(".box9 > p");
 const response10 = document.querySelector(".box10 > p");
 
-const showNote = document.querySelector(".note > span");
+const showNote = document.getElementById("Score");
+const divNote = document.querySelector(".note");
     let note = 0;
     let questionsAnswered = 0;
     const totalQuestions = 10;
@@ -40,103 +41,126 @@ const showNote = document.querySelector(".note > span");
 btn1.addEventListener("click", () =>{
     response1.classList.add("show-response");
     response1.style.background = "red";
+    questionsAnswered++
 })
 
 btn2.addEventListener("click", () =>{
     response1.classList.add("show-response");
     response1.style.background = "green";
     note++;
+    questionsAnswered++
 })
 
 btn3.addEventListener("click", () =>{
     response2.classList.add("show-response");
     response2.style.background = "green";
     note++;
+    questionsAnswered++
 })
 
 btn4.addEventListener("click", () =>{
     response2.classList.add("show-response");
     response2.style.background = "red";
+    questionsAnswered++
 })
 
 btn5.addEventListener("click", () =>{
     response3.classList.add("show-response");
     response3.style.background = "red";
+    questionsAnswered++
 })
 
 btn6.addEventListener("click", () =>{
     response3.classList.add("show-response");
     response3.style.background = "green";
     note++;
+    questionsAnswered++
 })
 btn7.addEventListener("click", () =>{
     response4.classList.add("show-response");
     response4.style.background = "green";
     note++;
+    questionsAnswered++
 })
 
 btn8.addEventListener("click", () =>{
     response4.classList.add("show-response");
     response4.style.background = "red";
+    questionsAnswered++
 })
 btn9.addEventListener("click", () =>{
     response5.classList.add("show-response");
     response5.style.background = "red";
+    questionsAnswered++
 })
 
 btn10.addEventListener("click", () =>{
     response5.classList.add("show-response");
     response5.style.background = "green";
     note++;
+    questionsAnswered++
 })
 btn11.addEventListener("click", () =>{
     response6.classList.add("show-response");
     response6.style.background = "red";
+    questionsAnswered++
 })
 
 btn12.addEventListener("click", () =>{
     response6.classList.add("show-response");
     response6.style.background = "green";
     note++;
+    questionsAnswered++
 })
 btn13.addEventListener("click", () =>{
     response7.classList.add("show-response");
     response7.style.background = "green";
     note++;
+    questionsAnswered++
 })
 
 btn14.addEventListener("click", () =>{
     response7.classList.add("show-response");
     response7.style.background = "red";
+    questionsAnswered++
 })
 btn15.addEventListener("click", () =>{
     response8.classList.add("show-response");
     response8.style.background = "green";
     note++;
+    questionsAnswered++
 })
 
 btn16.addEventListener("click", () =>{
     response8.classList.add("show-response");
     response8.style.background = "red";
+    questionsAnswered++
 })
 btn17.addEventListener("click", () =>{
     response9.classList.add("show-response");
     response9.style.background = "red";
+    questionsAnswered++
 })
 
 btn18.addEventListener("click", () =>{
     response9.classList.add("show-response");
     response9.style.background = "green";
     note++;
+    questionsAnswered++
 })
 btn19.addEventListener("click", () =>{
     response10.classList.add("show-response");
     response10.style.background = "red";
+    questionsAnswered++
 })
 
 btn20.addEventListener("click", () =>{
     response10.classList.add("show-response");
     response10.style.background = "green";
     note++;
+    questionsAnswered++
+    divNote.classList.add("showNote");
+    showNote.innerHTML = `${note}`;
 })
+
 

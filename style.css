@@ -38,8 +38,12 @@ p {
 }
 
 .note {
+    visibility: hidden;
     color: white;
 }
 .note span {
     color: white;
+}
+.showNote {
+    visibility: visible;
 }
