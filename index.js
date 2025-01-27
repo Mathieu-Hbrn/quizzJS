@@ -32,6 +32,11 @@ const response8 = document.querySelector(".box8 > p");
 const response9 = document.querySelector(".box9 > p");
 const response10 = document.querySelector(".box10 > p");
 
+const showNote = document.querySelector(".note > span");
+    let note = 0;
+    let questionsAnswered = 0;
+    const totalQuestions = 10;
+
 btn1.addEventListener("click", () =>{
     response1.classList.add("show-response");
     response1.style.background = "red";
@@ -40,11 +45,13 @@ btn1.addEventListener("click", () =>{
 btn2.addEventListener("click", () =>{
     response1.classList.add("show-response");
     response1.style.background = "green";
+    note++;
 })
 
 btn3.addEventListener("click", () =>{
     response2.classList.add("show-response");
     response2.style.background = "green";
+    note++;
 })
 
 btn4.addEventListener("click", () =>{
@@ -60,10 +67,12 @@ btn5.addEventListener("click", () =>{
 btn6.addEventListener("click", () =>{
     response3.classList.add("show-response");
     response3.style.background = "green";
+    note++;
 })
 btn7.addEventListener("click", () =>{
     response4.classList.add("show-response");
     response4.style.background = "green";
+    note++;
 })
 
 btn8.addEventListener("click", () =>{
@@ -78,6 +87,7 @@ btn9.addEventListener("click", () =>{
 btn10.addEventListener("click", () =>{
     response5.classList.add("show-response");
     response5.style.background = "green";
+    note++;
 })
 btn11.addEventListener("click", () =>{
     response6.classList.add("show-response");
@@ -87,10 +97,12 @@ btn11.addEventListener("click", () =>{
 btn12.addEventListener("click", () =>{
     response6.classList.add("show-response");
     response6.style.background = "green";
+    note++;
 })
 btn13.addEventListener("click", () =>{
     response7.classList.add("show-response");
     response7.style.background = "green";
+    note++;
 })
 
 btn14.addEventListener("click", () =>{
@@ -100,6 +112,7 @@ btn14.addEventListener("click", () =>{
 btn15.addEventListener("click", () =>{
     response8.classList.add("show-response");
     response8.style.background = "green";
+    note++;
 })
 
 btn16.addEventListener("click", () =>{
@@ -114,6 +127,7 @@ btn17.addEventListener("click", () =>{
 btn18.addEventListener("click", () =>{
     response9.classList.add("show-response");
     response9.style.background = "green";
+    note++;
 })
 btn19.addEventListener("click", () =>{
     response10.classList.add("show-response");
@@ -123,4 +137,6 @@ btn19.addEventListener("click", () =>{
 btn20.addEventListener("click", () =>{
     response10.classList.add("show-response");
     response10.style.background = "green";
+    note++;
 })
+

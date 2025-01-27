@@ -36,3 +36,10 @@ p {
     opacity: 1;
     transform: translateX(0);
 }
+
+.note {
+    color: white;
+}
+.note span {
+    color: white;
+}
