@@ -152,6 +152,8 @@ btn19.addEventListener("click", () =>{
     response10.classList.add("show-response");
     response10.style.background = "red";
     questionsAnswered++
+    divNote.classList.add("showNote");
+    showNote.innerHTML = `${note}`;
 })
 
 btn20.addEventListener("click", () =>{
